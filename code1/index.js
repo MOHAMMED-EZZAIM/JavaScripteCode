@@ -13,8 +13,11 @@ console.log(`your name is ${firsname}`);
 
 let boleane=false;
 console.log(boleane);
-
-*/
-
 document.getElementById('myp').textContent="your are mohammed ezzam";
-
+document.write(window.prompt('enter your name'));
+*/
+let username;
+document.getElementById('b').onclick=function(){
+    username=document.getElementById('text').value;
+    document.getElementById('h1').textContent=`hello ${username}`;
+}
