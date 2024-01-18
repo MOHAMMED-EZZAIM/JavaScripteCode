@@ -1,0 +1,77 @@
+button{
+   
+    background-color: rgb(12, 233, 244);
+    border: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 300px;
+    display: inline-block;
+}
+button:hover{
+    background-color: rgb(11, 22, 235);
+   
+}
+button:active{
+    background-color:  rgb(10, 10, 10);
+    color: rgb(248, 250, 252);
+    box-shadow: 10px 10px 10px rgb(6, 189, 245);
+}
+label,p{
+   
+    border: none;
+    color: rgb(8, 8, 8);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    width: 300px;
+    display: inline-block;
+
+}
+
+h1{
+    color: blue;
+}
+#i1{
+    
+    color: rgb(8, 8, 8);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    width: 300px;
+    display: inline-block;
+}
+form{
+    background-color: azure;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    position: relative;
+    margin: auto ;
+   padding: 20px;
+   border: 5px solid black;
+
+}
+body{
+    background-color: blue;
+}
+
+#result{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(20, 45, 238);
+}
