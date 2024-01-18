@@ -19,3 +19,23 @@ btn.onclick=function (){
         res.textContent="plaise";
     }
 }
+
+let fruit=["apple","orange","banana"];
+fruit.push("mohammed");
+fruit.unshift("lina");
+fruit.pop();
+fruit.push();
+fruit.sort();
+fruit.sort().reverse();
+console.log(fruit);
+
+let t=[1,7,3,4,5,9];
+let max=Math.max(...t);
+console.log(max);
+
+let min=Math.min(...t);
+console.log(min);
+
+console.log(Math.max(3,4,5,11,222));
+
+
