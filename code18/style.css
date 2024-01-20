@@ -1,0 +1,25 @@
+#mybox{
+    background-color: lightgreen;
+    width: 400px;
+    height: 300px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+button{
+    font-size: 40px;
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+button:hover{
+    background-color:rgb(62, 61, 61);
+    color:  rgb(222, 219, 219);
+}
+button:active{
+    background-color: rgb(6, 6, 6);
+    color: white;
+    border: solid black 2px;
+}
