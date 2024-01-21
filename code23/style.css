@@ -1,0 +1,26 @@
+
+.btn{
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 10px 15px;
+}
+.enabled{
+    background-color:rgb(43, 160, 232);
+    color: white;
+}
+.hover{
+    box-shadow: 0 0 10px hsla(0,0%, 0%, 0.2);
+    padding: 20px 30px;
+    font-weight: bold;
+}
+.disabled{
+    background-color: red;
+    color: white;
+}
+
+div{
+    display: grid;
+}

@@ -1,0 +1,16 @@
+img{
+    width: 300px;
+}
+button{
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(54, 235, 235);
+}
+button:active{
+    background-color: rgb(249, 8, 8);
+    color: white;
+}
