@@ -1,0 +1,79 @@
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color:blue;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#b1:active,#b2:active,#b3:active{
+    background-color: rgb(59, 178, 252);
+}
+#b1:hover,#b2:hover,#b3:hover{
+    opacity: 0.7;
+}
+#games{
+    align-items: center;
+    text-align: center;
+}
+#on{
+    text-align: center;
+    max-width: 20;
+    height: 30px;
+    border: none;
+    background-color: rgb(4, 138, 33);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#on:hover{
+    background-color: rgb(114, 164, 125);
+}
+#on:active{
+    background-color: #57f806;
+}
+#off{
+    text-align: center;
+    max-width: 20;
+    height: 30px;
+    border: none;
+    background-color: rgb(243, 61, 16);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#off:hover{
+    background-color: rgb(198, 100, 80);
+}
+#off:active{
+    background-color: red;
+}
+
+.onoff{
+    align-items: center;
+    text-align: center;
+}
+
+.classBody1{
+    background-image: url("https://previews.123rf.com/images/visible3dscience/visible3dscience1611/visible3dscience161106861/65973241-gar%C3%A7on-enfant-avec-gagner-la-coupe.jpg");
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    background-color: rgb(200, 199, 199);
+}
+.classBody2{
+    background-color: rgb(200, 199, 199);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
